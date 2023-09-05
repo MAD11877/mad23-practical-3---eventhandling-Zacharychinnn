@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="308dp"
+        android:text="Hello World!"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="106dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="282dp"
+        android:layout_height="47dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#6200ED"
+        android:text="Follow"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#6200ED"
+        android:text="Message"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="413dp"
+        android:layout_height="91dp"
+        android:background="#673AB6"
+        app:srcCompat="@color/purple_500"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-4dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MADPractical"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="63dp"
+        app:circularflow_radiusInDP="50dp"
+        app:layout_constraintCircleRadius="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        tools:layout_editor_absoluteX="138dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
